@@ -34,19 +34,19 @@ export default function Hero() {
             className="w-full h-full object-cover object-center scale-105 animate-pulse-slow"
           />
           {/* Overlay oscuro sutil */}
-          <div className="absolute inset-0 bg-gradient-to-b from-brand-black/70 via-brand-black/40 to-brand-black"></div>
+          <div className="absolute inset-0 bg-linear-to-b from-brand-black/85 via-brand-black/65 to-brand-black"></div>
         </div>
 
         {/* Contenido del Hero */}
         <div className="relative z-10 max-w-4xl mx-auto pt-20">
-          <h1 className="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-brand-cream font-bold leading-tight tracking-tight mb-6">
+          <h1 className="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-brand-cream font-bold leading-tight tracking-tight mb-6 drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)]">
             Donde la Tradición <br />
             <span className="italic font-light text-brand-gold">
               se Reinventa
             </span>
           </h1>
 
-          <p className="text-base sm:text-xl text-neutral-200 font-light max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="text-base sm:text-xl text-brand-cream/90 font-light max-w-2xl mx-auto mb-10 leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)]">
             Cocina de autor con alma local. Técnicas culinarias europeas de
             vanguardia unidas a los ingredientes más nobles de nuestra tierra.
           </p>
