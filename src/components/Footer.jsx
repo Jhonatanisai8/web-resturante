@@ -32,7 +32,7 @@ export default function Footer({ showToast }) {
                 <i className="fa-solid fa-utensils text-sm"></i>
               </div>
               <span className="font-serif font-bold text-2xl tracking-[0.2em] text-brand-cream uppercase">
-                Sabor <span className="text-brand-gold font-light">Urbano</span>
+                Oro<span className="text-brand-gold font-light">Del Mar</span>
               </span>
             </div>
             <p className="text-neutral-400 text-xs sm:text-sm leading-relaxed max-w-sm">
@@ -174,7 +174,7 @@ export default function Footer({ showToast }) {
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
           <div>
             &copy; <span>{new Date().getFullYear()}</span>{" "}
-            <strong>SABOR URBANO RESTAURANTE</strong>. Todos los derechos
+            <strong>Oro del Mar RESTAURANTE</strong>. Todos los derechos
             reservados.
           </div>
 

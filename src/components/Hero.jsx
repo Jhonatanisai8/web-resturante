@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="absolute inset-0 z-0">
           <img
             src={bgSrc}
-            alt="Plato Signature Sabor Urbano"
+            alt="Plato Signature Oro del Mar"
             onError={handleImgError}
             className="w-full h-full object-cover object-center scale-105 animate-pulse-slow"
           />

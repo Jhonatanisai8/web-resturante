@@ -4,19 +4,19 @@
   --color-brand-black: #1c1c1c;
   --color-brand-dark: #141414;
   --color-brand-surface: #242424;
-  --color-brand-gold: #d4af37;
-  --color-brand-goldHover: #c19c28;
-  --color-brand-cream: #fffef7;
+  --color-brand-gold: #969a97;
+  --color-brand-goldHover: #7d817e;
+  --color-brand-cream: #f0f7f4;
   --color-brand-olive: #708238;
   --color-brand-oliveLight: #859b43;
   --color-brand-muted: #a3a3a3;
 
   /* Compatibility variables for React template */
   --color-matte: #1c1c1c;
-  --color-gold: #d4af37;
-  --color-cream: #fffef7;
+  --color-gold: #969a97;
+  --color-cream: #f0f7f4;
   --color-olive: #708238;
-  --color-gold-light: #c19c28;
+  --color-gold-light: #7d817e;
   --color-matte-light: #242424;
 
   --font-serif: "Playfair Display", Georgia, serif;
@@ -71,7 +71,7 @@ body {
 /* Subtle background texture */
 .bg-texture {
   background-image: radial-gradient(
-    rgba(212, 175, 55, 0.08) 1px,
+    rgba(150, 154, 151, 0.08) 1px,
     transparent 0
   );
   background-size: 24px 24px;
@@ -82,14 +82,14 @@ body {
   background: rgba(28, 28, 28, 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(212, 175, 55, 0.2);
+  border: 1px solid rgba(150, 154, 151, 0.2);
 }
 
 .glass-light {
-  background: rgba(255, 254, 247, 0.92);
+  background: rgba(240, 247, 244, 0.92);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(212, 175, 55, 0.3);
+  border: 1px solid rgba(150, 154, 151, 0.3);
 }
 
 /* Lightbox styles */

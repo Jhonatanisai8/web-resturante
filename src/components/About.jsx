@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="nosotros"
-      className="py-24 md:py-32 px-4 md:px-12 bg-[#FFFEF7] relative bg-texture"
+      className="py-24 md:py-32 px-4 md:px-12 bg-brand-cream relative bg-texture"
     >
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
@@ -20,7 +20,7 @@ export default function About() {
 
             <p className="text-neutral-700 leading-relaxed mb-5 text-justify">
               Nacido en el corazón vibrante de la ciudad,{" "}
-              <strong className="text-brand-black">SABOR URBANO</strong> es el
+              <strong className="text-brand-black">Oro del Mar</strong> es el
               resultado de un viaje gastronómico que cruza océanos. Fusionamos
               la rigurosa precisión de las escuelas clásicas europeas —francesa,
               italiana y vasca— con la exhuberante biodiversidad de nuestras
@@ -99,7 +99,7 @@ export default function About() {
               <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
                 <img
                   src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=1200&auto=format&fit=crop"
-                  alt="Ambiente elegante restaurante Sabor Urbano"
+                  alt="Ambiente elegante restaurante Oro del Mar"
                   className="w-full h-[480px] object-cover hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />

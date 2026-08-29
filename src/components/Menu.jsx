@@ -154,7 +154,7 @@ export default function Menu({ showToast }) {
     document.body.style.overflow = "auto";
     showToast(
       "Descargando Menú PDF",
-      "El menú completo 2026 de Sabor Urbano se ha guardado en tu dispositivo.",
+      "El menú completo 2026 de Oro del Mar se ha guardado en tu dispositivo.",
       "info",
     );
   };
@@ -237,7 +237,7 @@ export default function Menu({ showToast }) {
            ========================================================================= */}
       <section
         id="menu"
-        className="py-24 md:py-32 px-4 md:px-12 bg-[#FFFEF7] relative"
+        className="py-24 md:py-32 px-4 md:px-12 bg-brand-cream relative"
       >
         <div className="max-w-6xl mx-auto">
           {/* Encabezado de Sección */}
@@ -398,7 +398,7 @@ export default function Menu({ showToast }) {
                   Carta Oficial 2026
                 </span>
                 <h3 className="font-serif font-bold text-3xl mt-1 text-brand-cream">
-                  SABOR URBANO
+                  Oro del Mar
                 </h3>
                 <p className="text-xs text-neutral-400 mt-1">
                   Cocina de autor con técnicas europeas e ingredientes locales

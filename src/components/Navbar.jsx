@@ -62,7 +62,7 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="font-serif font-bold text-xl md:text-2xl tracking-[0.2em] text-brand-cream uppercase leading-none">
-                Sabor <span className="text-brand-gold font-light">Urbano</span>
+                Oro<span className="text-brand-gold font-light">Del Mar</span>
               </span>
               <span className="text-[9px] uppercase tracking-[0.3em] text-neutral-400 mt-1">
                 Cocina Fusión & Autor

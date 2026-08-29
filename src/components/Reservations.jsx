@@ -63,7 +63,7 @@ export default function Reservations({ showToast }) {
       <div className="absolute inset-0 opacity-25 z-0">
         <img
           src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1974&auto=format&fit=crop"
-          alt="Atmósfera restaurante Sabor Urbano"
+          alt="Atmósfera restaurante Oro del Mar"
           className="w-full h-full object-cover"
           loading="lazy"
         />
@@ -85,7 +85,7 @@ export default function Reservations({ showToast }) {
         </div>
 
         {/* Tarjeta de Formulario de Reservas */}
-        <div className="bg-[#FFFEF7] rounded-3xl p-6 sm:p-10 md:p-12 shadow-2xl border border-brand-gold/30 reveal">
+        <div className="bg-brand-cream rounded-3xl p-6 sm:p-10 md:p-12 shadow-2xl border border-brand-gold/30 reveal">
           <form
             id="reservation-form"
             onSubmit={handleSubmit}

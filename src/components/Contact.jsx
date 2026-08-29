@@ -81,10 +81,10 @@ export default function Contact() {
                   </h4>
                   <p className="text-neutral-400 text-xs sm:text-sm mt-0.5">
                     <a
-                      href="mailto:experiencia@saborurbano.com"
+                      href="mailto:experiencia@saborDel Mar.com"
                       className="hover:text-brand-gold transition-colors"
                     >
-                      experiencia@saborurbano.com
+                      experiencia@saborDel Mar.com
                     </a>
                   </p>
                 </div>
@@ -130,7 +130,7 @@ export default function Contact() {
           <div className="lg:col-span-6 reveal">
             <div className="rounded-3xl overflow-hidden shadow-2xl border-2 border-brand-gold/30 h-[450px] relative">
               <iframe
-                title="Mapa de Ubicación de Sabor Urbano"
+                title="Mapa de Ubicación de Oro del Mar"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.979339023153!2d-77.03450942417743!3d-12.04698884188737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8b5e9f82cf3%3A0x6b45e997f74fb066!2sPlaza%20Mayor%20de%20Lima!5e0!3m2!1ses!2spe!4v1700000000000!5m2!1ses!2spe"
                 className="w-full h-full border-0 filter grayscale-[25%] contrast-125"
                 allowFullScreen=""
@@ -138,8 +138,8 @@ export default function Contact() {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
               <div className="absolute bottom-4 left-4 bg-brand-black/90 backdrop-blur-md px-4 py-2 rounded-xl text-xs border border-brand-gold/30 text-brand-cream">
-                <span className="font-bold text-brand-gold">SABOR URBANO</span>{" "}
-                - Centro Histórico
+                <span className="font-bold text-brand-gold">Oro del Mar</span> -
+                Centro Histórico
               </div>
             </div>
           </div>

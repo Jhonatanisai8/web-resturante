@@ -103,7 +103,7 @@ export default function Testimonials({ showToast }) {
 
   return (
     <>
-      <section className="py-24 px-4 md:px-12 bg-[#FFFEF7] relative">
+      <section className="py-24 px-4 md:px-12 bg-brand-cream relative">
         <div className="max-w-5xl mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-12 reveal">
             <span className="text-xs uppercase tracking-[0.25em] text-brand-olive font-bold">
@@ -232,7 +232,7 @@ export default function Testimonials({ showToast }) {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
-              className="bg-[#FFFEF7] rounded-3xl p-8 max-w-lg w-full relative shadow-2xl border border-brand-gold/30"
+              className="bg-brand-cream rounded-3xl p-8 max-w-lg w-full relative shadow-2xl border border-brand-gold/30"
             >
               <button
                 onClick={closeReviewModal}
